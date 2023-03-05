@@ -1,0 +1,75 @@
+/* all css goes below */
+
+/* 
+every element in the html file
+can be targeted through a tag.
+This tag is formally called class.
+*/
+
+.excellence {
+  /* The html element that has 
+the class excellence has */
+  text-align: center;
+  /* align the text to the center */
+  border-bottom: 1px dashed black;
+  /* add a bottom border
+    that is 1 pixel wide
+    it has a solid shape
+    and its color is black
+  */
+  padding: 10px;
+  /* add 10 pixels padding on each side */
+  background-color: black;
+  /* add a black background color */
+  color: white;
+  /* add a while color for the text */
+}
+
+.description-picture {
+  display: flex;
+  /* use flexbox 
+  what is flex box ?
+  flex box is a css tool to organize content into rows and columns.
+  whenever 'display:flex' is used
+  it looks at all the parts inside the element
+  and puts them automatically into a row
+  */
+  justify-content: space-evenly;
+  /* after everything is in a row
+    space the items evenly
+  */
+}
+
+.description {
+  border: 1px solid grey;
+  /* add a border 
+    which is 1 pixel wide
+    which has a solid shape
+    and the color grey
+  */
+  padding: 10px;
+  width: 200px;
+  /* add a width of 200 pixels */
+  background-color: beige;
+  /* add a beige background color */
+}
+
+.label {
+  color: darkblue;
+  /* add darkblue color */
+  font-weight: 800;
+  /* the thickness of the font is 800 */
+}
+
+/* you can style multiple elements 
+by chaining together 
+and seperating them with commas like both */
+.personality-box,
+.apperance-box {
+  background-color: lightgreen;
+  padding: 5px;
+  border: 1px solid black;
+  /*  */
+  margin: 5px;
+  /* add a margin of 5 pixels to all sides */
+}
