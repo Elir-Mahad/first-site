@@ -22,4 +22,6 @@
 6. Created an index.html and style.css file inside the first-site repository.
 
 7. Copy and paste the code from codesanbox into the github files.
+
+8. Live site is here : https://6fjlns.csb.app/
   
